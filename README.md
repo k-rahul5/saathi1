@@ -32,47 +32,8 @@
 
 ---
 
-## ⚙️ Getting Started
 
-### Prerequisites
 
-- [Node.js](https://nodejs.org/) (v18+ recommended)
-- [Firebase account](https://console.firebase.google.com/)
-- [Gemini API Key](https://aistudio.google.com/)
-
-### Installation
-
-1. **Clone the repository**:
-   ```bash
-   git clone <repository-url>
-   cd "SAATHI APP/nyaya-saathi"
-   ```
-
-2. **Install Frontend Dependencies**:
-   ```bash
-   npm install
-   ```
-
-3. **Install Server Dependencies**:
-   ```bash
-   cd server
-   npm install
-   cd ..
-   ```
-
-### Configuration
-
-Create a `.env` file in the root directory and add your credentials:
-
-```env
-VITE_FIREBASE_API_KEY=your_apiKey
-VITE_FIREBASE_AUTH_DOMAIN=your_authDomain
-VITE_FIREBASE_PROJECT_ID=your_projectId
-VITE_FIREBASE_STORAGE_BUCKET=your_storageBucket
-VITE_FIREBASE_MESSAGING_SENDER_ID=your_messagingSenderId
-VITE_FIREBASE_APP_ID=your_appId
-VITE_GEMINI_API_KEY=your_gemini_key
-```
 
 ### Running the Project
 
@@ -88,17 +49,6 @@ VITE_GEMINI_API_KEY=your_gemini_key
 
 ---
 
-## 📂 Project Structure
-
-- `src/`: Main React application files.
-  - `App.jsx`: Core routing and voice logic.
-  - `firebase.js`: Firebase initialization.
-  - `locales.js`: Localization support.
-  - `services/`: API and utility logic (Gemini, SMS).
-- `server/`: Backend scripts for SMS notifications.
-- `public/`: Static assets and media.
-
----
 
 ## 🌟 Mission
 *To ensure that every unorganized worker in India has a voice and the tools to claim their rightful government benefits.*
