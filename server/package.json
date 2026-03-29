@@ -1,0 +1,14 @@
+{
+  "name": "nyaya-saathi-sms-server",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "start": "node sms-server.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^5.1.0",
+    "twilio": "^5.7.0"
+  }
+}
